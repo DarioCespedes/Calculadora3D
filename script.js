@@ -55,7 +55,7 @@ function calcularCosto() {
     document.getElementById("amortizacion").innerText = "$ " + costamortizacion.toFixed(2);
     document.getElementById("fallos").innerText = "$ " + fallos.toFixed(2);
     document.getElementById("basica").innerText = "$ " + total.toFixed(2);
-    document.getElementById("totalf").innerText = "$ " + totalfinal.toFixed(2);
+    document.getElementById("totalf").innerText = "$ " + totalfinal.toFixed(0);
     
     document.getElementById("formulario").style.display = "none";
     document.getElementById("resumen").style.display = "block";
